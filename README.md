@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+Welcome to the Portfolio Project
+Project Info
+This is a modern, responsive personal portfolio web application built with the following technologies:
 
-## Project info
+Vite
 
-**URL**: https://lovable.dev/projects/09819195-1a8b-4d05-a4b3-f996f7730644
+TypeScript
 
-## How can I edit this code?
+React
 
-There are several ways of editing your application.
+shadcn-ui
 
-**Use Lovable**
+Tailwind CSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09819195-1a8b-4d05-a4b3-f996f7730644) and start prompting.
+The portfolio showcases project work, technical skills, and personal background in a clean and interactive format. Designed with performance and accessibility in mind, it serves as an ideal platform for personal branding and professional presentation.
 
-Changes made via Lovable will be committed automatically to this repo.
+Getting Started
+To run this project locally, make sure you have Node.js and npm installed. Then follow these steps:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+sh
+Copy code
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
+Once the server is running, open your browser and go to http://localhost:5173 to see the portfolio in action.
 
-**Edit a file directly in GitHub**
+Deployment
+To deploy this project, you can use any modern hosting provider that supports static front-end projects. The build can be generated using:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+sh
+Copy code
+npm run build
+Then upload the contents of the dist folder to your hosting platform of choice.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/09819195-1a8b-4d05-a4b3-f996f7730644) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
